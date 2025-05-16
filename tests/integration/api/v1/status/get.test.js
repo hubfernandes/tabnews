@@ -12,7 +12,7 @@ test("GET: /api/v1/status => 200", async () => {
 
   const dbVersion = database.version;
 
-  expect(dbVersion).toBe("16.0");
+  expect(dbVersion).toBe("16.6");
 
   const dbMaxConnections = database.max_connections;
 
