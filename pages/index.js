@@ -1,9 +1,17 @@
 function Home() {
   return (
-    <h1>
-      Clarinha, só para não perder a oportunidade e dizer que te amo muito! /n
-      Vc é muito especial para mim ❤
-    </h1>
+    <html>
+      <head>
+        <meta
+          name="facebook-domain-verification"
+          content="4z8f7zuqlymkb9ux32u6h51dgk5jlp"
+        />
+        <title>Lucernos</title>
+      </head>
+      <body>
+        <p>Project Lucernos is coming soom!</p>
+      </body>
+    </html>
   );
 }
 
