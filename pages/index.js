@@ -2,10 +2,6 @@ function Home() {
   return (
     <html>
       <head>
-        <meta
-          name="facebook-domain-verification"
-          content="4z8f7zuqlymkb9ux32u6h51dgk5jlp"
-        />
         <title>Lucernos</title>
       </head>
       <body>
@@ -16,3 +12,12 @@ function Home() {
 }
 
 export default Home;
+
+export const metadata = {
+  title: "Lucernos",
+  verification: {
+    other: {
+      "facebook-domain-verification": ["4z8f7zuqlymkb9ux32u6h51dgk5jlp"],
+    },
+  },
+};
